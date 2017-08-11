@@ -1,0 +1,10 @@
+c:\users\james\documents\visual studio 2017\Projects\TheAutodidact3\TheAutodidact3\bin\Debug\netcoreapp1.1\TheAutodidact3.deps.json
+c:\users\james\documents\visual studio 2017\Projects\TheAutodidact3\TheAutodidact3\bin\Debug\netcoreapp1.1\TheAutodidact3.runtimeconfig.json
+c:\users\james\documents\visual studio 2017\Projects\TheAutodidact3\TheAutodidact3\bin\Debug\netcoreapp1.1\TheAutodidact3.runtimeconfig.dev.json
+c:\users\james\documents\visual studio 2017\Projects\TheAutodidact3\TheAutodidact3\bin\Debug\netcoreapp1.1\TheAutodidact3.dll
+c:\users\james\documents\visual studio 2017\Projects\TheAutodidact3\TheAutodidact3\bin\Debug\netcoreapp1.1\TheAutodidact3.pdb
+c:\users\james\documents\visual studio 2017\Projects\TheAutodidact3\TheAutodidact3\obj\Debug\netcoreapp1.1\TheAutodidact3.csprojResolveAssemblyReference.cache
+c:\users\james\documents\visual studio 2017\Projects\TheAutodidact3\TheAutodidact3\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+c:\users\james\documents\visual studio 2017\Projects\TheAutodidact3\TheAutodidact3\obj\Debug\netcoreapp1.1\TheAutodidact3.AssemblyInfo.cs
+c:\users\james\documents\visual studio 2017\Projects\TheAutodidact3\TheAutodidact3\obj\Debug\netcoreapp1.1\TheAutodidact3.dll
+c:\users\james\documents\visual studio 2017\Projects\TheAutodidact3\TheAutodidact3\obj\Debug\netcoreapp1.1\TheAutodidact3.pdb

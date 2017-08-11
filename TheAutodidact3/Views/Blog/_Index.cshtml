@@ -1,0 +1,46 @@
+@model IEnumerable<TheAutodidact3.Models.Blog>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+
+
+
+<h2>Blog</h2>
+<a asp-action="Create" asp-route-returnurl="@ViewData["Create"]">Create New Entry</a>
+
+
+@foreach (var item in Model)
+{
+
+
+        <h2>
+            @Html.DisplayFor(modelItem => item.Title)
+        </h2>
+
+        <h5>
+            <!--formatted to date/month/year-->
+            @Html.DisplayFor(modelItem => item.Date.Day)/@Html.DisplayFor(modelItem => item.Date.Month)/@Html.DisplayFor(modelItem => item.Date.Year)
+        </h5>
+
+        <h5>
+            @Html.DisplayFor(modelItem => item.Author)
+        </h5>
+
+
+        <p>
+            <!--formats text to allow new lines-->
+            @Html.Raw(item.Content.Replace(Environment.NewLine, "<br/>"))
+        </p>
+
+        <div class="table">
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+        </div>
+        <p><br/></p>
+}
